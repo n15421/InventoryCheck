@@ -1,7 +1,7 @@
 {
-    "name": "${pluginName}",
-    "entry": "${pluginFile}",
-    "version": "0.13.0",
+    "name": "${modName}",
+    "entry": "${modFile}",
+    "version": "0.13.1",
     "author": "GroupMountain",
     "description": "Check Player's Inventory",
     "type": "native",
