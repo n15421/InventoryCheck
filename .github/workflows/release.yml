@@ -32,10 +32,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-
-      - id: extract-release-notes
-        uses: ffurrer2/extract-release-notes@v2
-
       - uses: softprops/action-gh-release@v1
         with:
           body: |
